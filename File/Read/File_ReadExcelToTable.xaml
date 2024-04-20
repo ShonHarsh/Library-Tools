@@ -23,7 +23,7 @@
   </this:File_ReadExcelToTable.in_WorksheetRange>
   <sap2010:Annotation.AnnotationText>UPTF00000088eyI8SGVscExpbms+a19fQmFja2luZ0ZpZWxkIjpudWxsLCI8SW5pdGlhbFRvb2x0aXA+a19fQmFja2luZ0ZpZWxkIjpudWxsLCI8VmVyc2lvbj5rX19CYWNraW5nRmllbGQiOjF9</sap2010:Annotation.AnnotationText>
   <sap2010:ExpressionActivityEditor.ExpressionActivityEditor>C#</sap2010:ExpressionActivityEditor.ExpressionActivityEditor>
-  <sap:VirtualizedContainerService.HintSize>1036,3626</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1249,3641</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -122,7 +122,7 @@
       <x:Boolean x:Key="ShouldExpandAll">False</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence DisplayName="File_ReadExcelToTable" sap:VirtualizedContainerService.HintSize="894,3561" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="File_ReadExcelToTable" sap:VirtualizedContainerService.HintSize="894,3576" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -141,7 +141,7 @@
         </InArgument>
       </ui:LogMessage.Message>
     </ui:LogMessage>
-    <Sequence sap2010:Annotation.AnnotationText="This workflow takes a file path, a workrsheet name, and a worksheet range for a Microsoft Excel document, reads the document, and retuns the data in a data table.  The entire sheet will be read if the range is blank." DisplayName="Sequence Initialization" sap:VirtualizedContainerService.HintSize="832,1193" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence sap2010:Annotation.AnnotationText="This workflow takes a file path as a string, a workrsheet name as a string, a worksheet range as a string and a boolean if headers exist for a Microsoft Excel document, reads the document, and retuns the data in a data table.  The entire sheet will be read if the range is blank." DisplayName="Sequence Initialization" sap:VirtualizedContainerService.HintSize="832,1208" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <Sequence.Variables>
         <Variable x:TypeArguments="x:Boolean" Name="isValidFile" />
       </Sequence.Variables>
