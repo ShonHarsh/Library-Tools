@@ -4,5 +4,66 @@
   "HelpLink": null,
   "Color": null,
   "OriginalIconFileName": null,
-  "Arguments": []
+  "Arguments": [
+    {
+      "Name": "in_FilePath",
+      "DisplayName": "in_FilePath",
+      "Category": null,
+      "Tooltip": "The file path to the document to read.",
+      "Placeholder": "",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_Worksheet",
+      "DisplayName": "in_Worksheet",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_WorksheetHasHeaders",
+      "DisplayName": "in_WorksheetHasHeaders",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "False",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "in_WorksheetRange",
+      "DisplayName": "in_WorksheetRange",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "out_Dt_Data",
+      "DisplayName": "out_Dt_Data",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": null,
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    }
+  ]
 }
