@@ -4,17 +4,17 @@
   "description": "A library of standard UiPath tools.",
   "main": "NewActivity.xaml",
   "dependencies": {
-    "UiPath.Excel.Activities": "2.23.2-preview",
-    "UiPath.Mail.Activities": "1.22.2",
-    "UiPath.System.Activities": "24.3.0",
+    "UiPath.Excel.Activities": "2.23.3-preview",
+    "UiPath.Mail.Activities": "1.23.0",
+    "UiPath.System.Activities": "24.3.1",
     "UiPath.Testing.Activities": "24.4.0-preview",
-    "UiPath.UIAutomation.Activities": "24.2.2-preview"
+    "UiPath.UIAutomation.Activities": "24.4.2-preview"
   },
   "webServices": [],
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "24.2.1.0",
-  "projectVersion": "1.0.0",
+  "projectVersion": "1.0.1",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
@@ -49,14 +49,21 @@
         "testCaseId": "1e115982-5d14-4bd5-8ca6-86223e7f677c",
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
-        "fileName": "Test\\File\\Read\\Test_File_ReadExcelToTable.xaml"
+        "fileName": "Test\\File\\Read\\Test_Read_ExcelToTable.xaml"
       },
       {
         "editingStatus": "InProgress",
-        "testCaseId": "4c4d671f-3182-4fa1-b487-ef5d4a236106",
+        "testCaseId": "b922840a-f331-41ea-ac4b-9558f1dcceb9",
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
-        "fileName": "Test\\File\\Read\\Test_File_ReadWorkbookToTable.xaml"
+        "fileName": "Test\\File\\Write\\Test_Write_TableToWorkbook.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "42f32fc7-fc26-47f7-adb2-6af3a50b3419",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Test\\File\\Read\\Test_Read_WorkbookToTable.xaml"
       }
     ],
     "saveToCloud": false
@@ -64,6 +71,8 @@
   "expressionLanguage": "CSharp",
   "isTemplate": false,
   "templateProjectData": {},
-  "publishData": {},
+  "publishData": {
+    "iconUrl": ".package/Icon-Tools.png"
+  },
   "targetFramework": "Windows"
 }

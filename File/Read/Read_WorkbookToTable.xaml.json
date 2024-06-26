@@ -18,18 +18,6 @@
       "DataSourceItems": null
     },
     {
-      "Name": "in_Worksheet",
-      "DisplayName": "in_Worksheet",
-      "Category": null,
-      "Tooltip": null,
-      "Placeholder": "",
-      "Widget": null,
-      "IsRequired": false,
-      "IsPrincipal": true,
-      "ArgumentType": 0,
-      "DataSourceItems": null
-    },
-    {
       "Name": "in_WorksheetHasHeaders",
       "DisplayName": "in_WorksheetHasHeaders",
       "Category": null,
@@ -54,8 +42,20 @@
       "DataSourceItems": null
     },
     {
-      "Name": "out_Dt_Data",
-      "DisplayName": "out_Dt_Data",
+      "Name": "in_WorksheetName",
+      "DisplayName": "in_WorksheetName",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "out_Dt_DataTable",
+      "DisplayName": "out_Dt_DataTable",
       "Category": null,
       "Tooltip": null,
       "Placeholder": null,
